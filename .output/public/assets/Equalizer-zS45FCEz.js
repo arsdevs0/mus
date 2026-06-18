@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DGeXAQPT.js";var t=e();function n({active:e}){return(0,t.jsx)(`div`,{className:`flex h-4 items-end gap-[2px]`,children:[0,1,2].map(n=>(0,t.jsx)(`span`,{className:`eq-bar w-[3px] rounded-sm bg-primary ${e?``:`opacity-40 [animation-play-state:paused]`}`,style:{height:`100%`}},n))})}export{n as t};
