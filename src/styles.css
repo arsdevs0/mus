@@ -121,6 +121,11 @@
     transform: scale(0.94);
     transition: transform 0.1s cubic-bezier(0.22, 1, 0.36, 1);
   }
+
+  /* Hide Lovable's "Edit with Lovable" badge in production/APK builds */
+  #lovable-badge {
+    display: none !important;
+  }
 }
 
 @layer utilities {
@@ -312,5 +317,4 @@ input[type="range"]::-moz-range-thumb {
   border: none;
   box-shadow: 0 0 12px oklch(0.82 0.16 195 / 0.6);
   cursor: pointer;
-}
-
+                                                             }
